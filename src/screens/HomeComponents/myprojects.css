@@ -1,0 +1,376 @@
+
+.projectImgDemo {
+  width:500px;
+  height:500px;
+  background:rgb(2, 2, 2);
+  position:relative;
+  overflow:hidden;
+
+}
+
+.projectImgDemo:after, 
+.projectImgDemo:before {
+  content:'';
+  background:white;
+  position:absolute;
+  top:-10px;
+  left:0;
+  width:100%;
+  height:20px;
+  border-radius:0 0 50% 50%;
+}
+.projectImgDemo:after {
+  top:auto;
+  bottom:-10px;
+  border-radius:50% 50% 0 0 ;
+}
+
+
+ /* * {
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent; 
+  scrollbar-width: 0px;
+} */
+
+/* scrollbar hidden property */
+/* *::-webkit-scrollbar {
+  width: 0;
+} */
+
+/* *::-webkit-scrollbar-track {
+  background: transparent;
+} */
+
+/* *::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+} */
+
+/* * {
+  -ms-overflow-style: none;
+} */
+.projectContainer{
+    /* background: #3cb371; */
+     /* background:rgb(11, 44, 57); */
+     color:#321414;
+     padding-top: 60px;
+  margin-top: -1rem;
+}
+.projectMainHeading{
+  border-bottom: 1px solid rgb(96, 96, 96); /* Set border bottom with 2px width and solid black color */
+  width: 70rem; /* Set width of the element to 100px */
+  margin-left: 4rem;
+  height: 50px; /* Set height of the element to 50px */
+
+  color: #ffffff;
+ margin-bottom: -1rem;
+ padding-top: 0px;
+  font-size: 3rem;
+
+    height: 50px; /* Set the height of the element */
+ /* padding-left: 5rem; */
+}
+
+
+
+.projectLinkButton {
+  margin-top: 0px;
+  background-color: rgb(0, 183, 235);
+  border-radius: 25px;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+display: flex;
+justify-content: center;
+align-items: center;
+  .linkButton {
+     color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgb(0, 183, 235);
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+
+}
+.linkButton:hover {
+  color: rgb(0, 183, 235);
+  border: 1px solid rgb(0, 183, 235);
+ background-color: black;
+  }
+
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.myProject {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+
+  margin-top: 10px;
+  perspective: 1000px;
+  overflow: hidden;
+  background:rgb(11, 44, 57);
+}
+.myProject::before,
+.myProject::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  translate: -50% 0;
+  width: 400%;
+  height: 500%;
+  border-radius: 50%;
+ background:rgb(11, 44, 57);
+background-position-x: right;
+ /* background: #999696; */
+}
+.myProject::before {
+  top: -480%;
+}
+.myProject::after {
+  bottom: -480%;
+}
+.projectImg{
+  margin-top: 60px;
+  height:max-content;
+    aspect-ratio: 1;
+    width: 50vw;      
+}
+#carouselSlide1{
+   margin-left: 80px;
+}
+#carouselSlideLast{
+   margin-right: 80px;
+}
+
+.carouselViewport {
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  /* horizontal scrool with hidden scrollbar */
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  
+    /* horizontal scrool with hidden scrollbar */
+  
+}
+.carouselViewport::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+
+.carouselSlide {
+   transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition: transform 0.5s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+.carouselSlide:before {
+  content: counter(item);
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  transform: translate3d(-50%, -40%, 70px);
+}
+.carouselSnapper {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  
+  width: 100%;
+  height: 100%;
+    background-size: cover;
+  background-position: 50%;
+  /* scroll-snap-align: center; */
+  border-left: 10px solid #ffffff;
+  background-color: #090908;
+} 
+
+.carouselSnapper:hover {
+ /* Add the blur effect */
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+.projectOnlyText{
+ color: #fff;
+}
+
+@media only screen and (min-width: 1024px) {
+  .myProject{
+    display: none;
+  }
+}
+
+    @media (max-width: 768px) {
+
+.projectContainer{
+  margin-top: 0rem;
+ background-color:rgb(12, 12, 12);
+    color:#ffffff;
+    margin-bottom: 4rem;
+    padding-top: 0rem;
+}
+
+#carouselSlide1{
+   margin-left: 40px;
+}
+#carouselSlideLast{
+   margin-right: 40px;
+}
+.carouselViewport {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  /* horizontal scrool with hidden scrollbar */
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  /* horizontal scrool with hidden scrollbar */ 
+}
+.carouselViewport::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.carouselSlide {
+   transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  transition: transform 0.5s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color:black;
+}
+.carouselSlide:before {
+  content: counter(item);
+  transform: translate3d(-50%, -40%, 70px);
+}
+.carouselSnapper {
+  width: 100%;
+  height: 100%;
+    background-size: cover;
+  background-position: 50%;
+  /* scroll-snap-align: center; */
+  border-left: 5px solid white;
+  background-color:black;
+} 
+.carouselSnapper:hover {
+ /* Add the blur effect */
+  filter: none;
+  -webkit-filter: none;
+}
+.projectMainHeading{
+  color: rgb(255, 255, 255);
+ /* padding-top: 70px; */
+ margin-top: 3rem;
+  font-size: 40px;
+  margin-left: -3rem;
+  font-weight: bold;
+
+    border-bottom: 1px solid rgb(96, 96, 96); /* Set border bottom with 2px width and solid black color */
+  width: 100%; /* Set width of the element to 100px */
+  margin-left: 0rem;
+  height: auto; /* Set height of the element to 50px */
+}
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.myProject {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  margin-top: 0px;
+  perspective: 1000px;
+  overflow: hidden;
+  background:white;
+}
+.myProject::before,
+.myProject::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  translate: -50% 0;
+  width: 400%;
+  height: 500%;
+  border-radius: 50%;
+background-color:rgb(12, 12, 12);
+background-position-x: right;
+margin-top: -5rem;
+ /* background: #999696; */
+}
+.myProject::before {
+  top: -480%;
+}
+.myProject::after {
+  bottom: -480%;
+}
+.projectImg{
+  margin-top: 100px;
+  height:max-content;
+    aspect-ratio: 1;
+    width: 70vw; 
+      
+}
+.projectLinkButton {
+  margin-top: 0px;
+background: #d3d3d3;
+ border:1px solid black;
+  color: rgb(16, 15, 15);
+  border-radius: 25px;
+  position: absolute;
+  top: 70%;
+  left: 25%;
+
+  .linkButton {
+  font-weight: bold;
+    padding: 10px 20px;
+    font-size: 15px;
+background: #d3d3d3;
+ border:1px solid black;
+  color: rgb(16, 15, 15);
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+.linkButton:hover {
+  color: #000000;
+    background:transparent;
+    border: 1px solid rgb(0, 0, 0);
+}
+  }
+}
+.projectOnlyText{
+  margin-top: 0rem;
+  max-width: 100%;
+  padding-top: 1rem;
+padding-bottom: 1rem;
+  /* padding-left: 10rem;
+    padding-right: 30px; */
+    margin-left: 0rem;
+ padding-left: 2rem;
+font-size: 20px;
+text-align: none;
+}
+
+    

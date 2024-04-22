@@ -1,0 +1,249 @@
+.contactInfoContainer{
+  background-color: white;
+     color: rgb(0, 0, 0);
+     height: auto;
+     background-size:cover;
+     background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.contactInfoHeading{
+     border-bottom: 1px solid black; /* Set border bottom with 2px width and solid black color */
+  width: 70rem; /* Set width of the element to 100px */
+  margin-left: 4rem;
+  height: 55px; /* Set height of the element to 50px */
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 3rem;
+    padding-top: 0rem;
+      margin-top: 0;
+}
+.contactInfoText{
+    font-size: 1.3rem;
+  text-align: center;
+}
+.contactInfoContactVia{
+  display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.conatctInfoEmail{
+display: flex;
+  align-items: center;
+   justify-content: center;
+font-size: 2rem;
+font-weight: 600;
+justify-content: center;
+      border-radius: 24px;
+        padding: 10px;
+border: 1px solid black;
+>.conatctInfoEmailText{
+    background-color: rgb(255, 255, 255);
+border: none;
+}
+i{
+    margin-right: 1rem;
+}
+}
+.conatctInfoEmail:hover{
+display: flex;
+font-size: 2rem;
+font-weight: 600;
+justify-content: center;
+      border-radius: 24px;
+       padding: 10px;
+background-color: black;
+>.conatctInfoEmailText{
+    background-color: rgb(0, 0, 0);
+  color: white;
+border: none;
+}
+i{
+    margin-right: 1rem;
+}
+}
+.conatctInfoNumber{
+      align-items: center;
+   justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 600;
+display: flex;
+font-size: 2rem;
+ padding:10px;
+ >a{
+    text-decoration: none;
+ }
+>.conatctInfoNumberText{
+   color: rgb(255, 255, 255);
+}
+i{
+    margin-right: 1rem;
+}
+}
+.conatctInfoNumber:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+ font-weight: 600;
+display: flex;
+font-size: 2rem;
+>.conatctInfoNumberText{
+   color: rgb(0, 0, 0);
+}
+i{
+    margin-right: 1rem;
+}
+}
+.contactInfoSocialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  /* align-items: center;
+   justify-content: center; */
+    
+}
+.contactInfoSocialMediaLogos{
+     height: 3rem;
+    width: 3rem;
+ margin-top: 1rem;
+    margin-right:3rem;
+ transition: scale 400ms;
+}
+.contactInfoSocialMediaLogos:hover{
+      scale: 120%;
+}
+
+@media only screen and (max-width: 767px){  
+.contactInfoContainer{
+    background-color: rgb(255, 255, 255);
+     color: black;
+}
+.contactInfoHeading{
+  margin-left: 0rem;
+width: 100%;
+height: auto;
+font-weight: 600;
+    border-bottom: 1px solid black;
+      text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.contactInfoContactVia{
+     display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.contactInfoText{
+    font-size: 1.3rem;
+margin: 1rem;
+  text-align: justify;
+}
+.conatctInfoEmail{
+     align-items: center;
+   justify-content: center;
+   /* width: 60%; */
+display: flex;
+font-size: 1.5rem;
+font-weight: 600;
+justify-content: center;
+ margin-bottom: 1rem;
+ margin-top: 1rem;
+      border-radius: 24px;
+        /* padding:10px 10px ; */
+        padding: 10px;
+border: 1px solid black;
+>.conatctInfoEmailText{
+   padding:10px 10px ;
+    background-color: rgb(255, 255, 255);
+  
+border: none;
+}
+i{
+    margin-top: .7rem;
+    margin-right: 1rem;
+}
+}
+.conatctInfoEmail:hover{
+   
+display: flex;
+font-size: 1.5rem;
+font-weight: 600;
+justify-content: center;
+ margin-bottom: 1rem;
+ margin-top: 1rem;
+      border-radius: 24px;
+       padding: 10px;
+background-color: black;
+>.conatctInfoEmailText{
+ padding: 10px;
+    background-color: rgb(0, 0, 0);
+  color: white;
+border: none;
+}
+i{
+       margin-top: .7rem;
+    margin-right: 1rem;
+}
+}
+.conatctInfoNumber{
+    /* width:80%; */
+   /* margin-left: 2rem; */
+   align-items: center;
+   justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-weight: 600;
+display: flex;
+font-size: 2rem;
+ padding: 10px;
+>.conatctInfoNumberText{
+   color: rgb(255, 255, 255);
+}
+i{
+    margin-right: 1rem;
+  
+}
+}
+.conatctInfoNumber:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+ font-weight: 600;
+display: flex;
+font-size: 2rem;
+ padding: 10px;
+>.conatctInfoNumberText{
+   color: rgb(0, 0, 0);
+}
+i{
+    margin-right: 1rem;
+}
+}
+.contactInfoSocialMedia{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  /* align-items: center;
+   justify-content: center; */
+    
+}
+.contactInfoSocialMediaLogos{
+    margin-left: 0px;
+    margin-right: 1rem;
+       height: 3rem;
+    width: 3rem;
+ transition: scale 400ms;
+}
+.contactInfoSocialMediaLogos:hover{
+      scale: 120%;
+}
+
+
+
+}

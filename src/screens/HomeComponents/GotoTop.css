@@ -1,0 +1,54 @@
+.wrapper{
+ display: flex;
+ justify-content:flex-end;
+ align-items: center;
+ margin-bottom: 2rem;
+ margin-right: 10rem;
+}
+.gotobtn{
+    background-color: #000000;
+    font-size: 3rem;
+    width: 5rem;
+     border-radius: 50%;
+     
+}
+.top-btn-icon{
+    color: rgb(255, 255, 255);
+    margin-left: 1rem;
+    margin-bottom: 10px;
+animation: gototop 1.2s linear infinite alternate-reverse;
+}
+
+@keyframes gototop{
+    0%{
+transform: translateY(-0.5rem)
+    }
+    100%{
+transform: translateY(1rem)
+    }
+}
+
+ @media (max-width: 768px) {
+  .wrapper{
+ display: flex;
+ position: relative;
+ z-index: 2;
+ justify-content:flex-end;
+ align-items: center;
+margin-top: 0rem;
+ margin-right: 1rem;
+}
+.gotobtn{
+  
+    background-color: #777777;
+    font-size: 3rem;
+    width: 5rem;
+     border-radius: 50%;
+}
+.top-btn-icon{
+      color: #000000;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+animation: gototop 1.2s linear infinite alternate-reverse;
+}  
+ }

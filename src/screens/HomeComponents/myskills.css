@@ -1,0 +1,246 @@
+.skillsHeading{
+   color: white;
+   font-size: 3rem;
+   border-bottom: 1px solid darkgrey;
+   margin-top: 3rem;
+}
+.skillsText{
+   font-size: 1rem;
+   color: white;
+}
+.mySkillsContent{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+}
+.SkillImg{
+   height: 100px;
+     width: auto;
+        transition: scale 400ms;
+}
+.SkillImg:hover{
+         scale: 120%;
+}
+.skillsImg1{
+  box-shadow: rgba(244, 87, 15, 0.566)  4px 4px 4px;
+
+     background-color: rgba(0, 0, 0, 0.687);
+     padding-left: 5rem;
+     padding-right: 5rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+.skillsImg2{
+     box-shadow: rgba(15, 236, 244, 0.566)  4px 4px 4px;
+
+     background-color: rgba(0, 0, 0, 0.687);
+   padding-left: 5rem;
+      padding-right: 5rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg3{
+     box-shadow: rgba(60, 0, 255, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+   padding-left: 5rem;
+      padding-right: 5rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg4{
+          box-shadow: rgba(255, 230, 0, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+   padding-left: 5rem;
+      padding-right: 5rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg5{
+           box-shadow: rgba(44, 234, 252, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+   padding-left: 5rem;
+      padding-right: 5rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg6{
+      box-shadow: rgba(6, 252, 63, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+   padding-left: 5rem;
+      padding-right: 5rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg7{
+           box-shadow: rgba(147, 147, 147, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+   padding-left: 5rem;
+      padding-right: 5rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg8{
+               box-shadow: rgba(222,184,135, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+   padding-left: 5rem;
+      padding-right: 5rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg9{
+     box-shadow: rgba(1, 250, 238, 0.648) 4px 4px 4px;   
+     background-color: rgba(0, 0, 0, 0.687);
+   padding-left: 5rem;
+      padding-right: 5rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg10{
+              box-shadow: rgba(148, 38, 244, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+   padding-left: 5rem;
+      padding-right: 5rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg11{
+               box-shadow: rgba(247, 71, 7, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+   padding-left: 5rem;
+      padding-right: 5rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg12{
+               box-shadow: rgba(255, 255, 255, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+   padding-left: 5rem;
+      padding-right: 5rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+
+      @media (max-width: 768px) {
+         .skillsHeading{
+   color: white;
+   font-size: 2.5rem;
+   border-bottom: 1px solid darkgrey;
+   margin-top: 2rem;
+}
+.mySkillsContent{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 2fr 2fr;
+    gap: 1rem;
+}
+.skillsImg1{
+  box-shadow: rgba(244, 87, 15, 0.566)  4px 4px 4px;
+
+     background-color: rgba(0, 0, 0, 0.687);
+       max-width: 100%;
+   padding-left: 3rem;
+      padding-right:2rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+.skillsImg2{
+     box-shadow: rgba(15, 236, 244, 0.566)  4px 4px 4px;
+
+     background-color: rgba(0, 0, 0, 0.687);
+     max-width: 100%;
+   padding-left: 3rem;
+      padding-right:2rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg3{
+     box-shadow: rgba(60, 0, 255, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+    max-width: 100%;
+   padding-left: 3rem;
+      padding-right:2rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg4{
+          box-shadow: rgba(255, 230, 0, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+   max-width: 100%;
+   padding-left: 3rem;
+      padding-right:2rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg5{
+           box-shadow: rgba(44, 234, 252, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+  max-width: 100%;
+   padding-left: 3rem;
+      padding-right:2rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg6{
+      box-shadow: rgba(6, 252, 63, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+  max-width: 100%;
+   padding-left: 3rem;
+      padding-right:2rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg7{
+           box-shadow: rgba(147, 147, 147, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+  max-width: 100%;
+   padding-left: 3rem;
+      padding-right:2rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg8{
+               box-shadow: rgba(222,184,135, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+   max-width: 100%;
+   padding-left: 3rem;
+      padding-right:2rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg9{
+     box-shadow: rgba(1, 250, 238, 0.648) 4px 4px 4px;   
+     background-color: rgba(0, 0, 0, 0.687);
+   max-width: 100%;
+   padding-left: 3rem;
+      padding-right:2rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg10{
+              box-shadow: rgba(148, 38, 244, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+    max-width: 100%;
+   padding-left: 3rem;
+      padding-right:2rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg11{
+               box-shadow: rgba(247, 71, 7, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+  max-width: 100%;
+   padding-left: 3rem;
+      padding-right: 2rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+     .skillsImg12{
+               box-shadow: rgba(255, 255, 255, 0.566) 4px 4px 4px;
+     background-color: rgba(0, 0, 0, 0.687);
+     max-width: 100%;
+   padding-left: 3rem;
+      padding-right:2rem;
+     border-radius: 10px;
+     margin-top: 3rem;
+     }
+      }

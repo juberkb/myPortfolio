@@ -1,0 +1,265 @@
+.footer{
+ /* background-image: linear-gradient(to right, grey, black); */
+ /* background:rgb(11, 44, 57); */
+ color: white;
+   background-color:rgb(0, 0, 0);
+  margin-bottom: -2rem;
+  margin-top: 7rem;
+/* border-top-right-radius: 9rem; */
+/* border-bottom-right-radius: 15%; */
+  /* margin-top: 0.625rem; */
+  /* padding-top: 2.5rem; */
+}
+.lineStyleSecondImage{
+    margin-top: -8rem;
+    position: relative;
+    z-index: 1;
+  width: 100%;
+transform: rotateY(3.142rad);
+}
+
+.footerContainer{
+  display: flex;
+  flex-direction: row;
+width: 100%;
+column-gap: 20%;
+}
+.footerContent{
+ width: 30%;
+text-align: justify;
+
+>.footerText{
+  font-size: 1rem;
+  margin-top: -1.325rem;
+  color: white;
+}
+
+>.socialMediaIcons{
+    margin-top: 3rem;
+}
+}
+.footerContactInfo{
+  width: 50%;
+margin-top: 1.25rem;
+margin-left:-3rem;
+text-align: justify;
+
+}
+.footerContactAddress{
+   width: 100%;
+   margin-top: 1.25rem;
+   margin-left: 10rem;
+}
+
+.footerLogo{
+  height: 20vh;
+  width: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+}
+
+.footerCopyRightsHandle{
+  display: flex;
+
+    border-top: 1px solid darkgrey;
+  >.footerCopyRights{
+    word-spacing: 0%;
+  margin-top: 0px;
+margin-left: 60px;
+
+ }
+}
+
+.footerContactPage{
+  display: flex;
+  flex-direction: row;
+}
+
+.footerHeadingText{
+  font-size: 1.875rem;
+  color: darkgrey;
+  margin-left: -0.625rem;
+}
+
+/* Styles for small screens (max-width: 767px) */
+@media (max-width: 767px) {
+  .lineStyleSecondImage{
+    margin-top: -60px;
+    position: relative;
+    z-index: 1;
+  width: 100%;
+transform: rotateY(3.142rad);
+}
+.footer{
+  /* border-top-right-radius: 5rem; */
+ background: black;
+ color: white;
+ margin-top: -4rem;
+  padding-top: 0px;
+     
+}
+
+ .footerContainer{
+  padding-top: 0px;
+   margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+width: 100%;
+column-gap: 20%;
+}
+.footerContent{
+ width: 100%;
+text-align: justify;
+>.footerText{
+  margin-top: 20px;
+}
+>.footerContactInfo{
+margin-top: 20px;
+}
+>.SocialmediaIcons{
+    margin-top: 30px;
+    margin-left: 50px;
+      margin-bottom: 30px;
+      flex-direction: row;
+     width: 50%;
+}
+}
+
+.footerForm{
+width:100%;
+   text-align: justify;
+   margin-right: 60px;
+}
+.footerLogo{
+margin-left: 3rem;
+/* padding-top: 2rem;
+padding-bottom: 2rem; */
+/* margin-bottom: .5rem; */
+  height: 100px;
+  width: 300px;
+}
+
+.footerCopyRightsHandle{
+  border-top: 1px solid darkgrey;
+ display: flex;
+
+}
+
+/* Common styles for both large and small screens */
+
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submitButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background-image: linear-gradient(to top, purple, #db1c3e);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+padding: 10px 40px;
+margin-left: 100px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.footerContactInfo{
+  width: 100%;
+margin-top: 20px;
+  margin-left: 0rem;
+  text-align: center;
+>.footerContactInfoText{
+  margin-top: 1rem;
+}
+}
+.footerContactAddress{
+ font-size: 1.rem;
+  margin-left: 0rem;
+  text-align: center;
+   width: 100%;
+margin-top: 20px;
+
+
+}
+
+.footerContactPage{
+  width: 100%;
+display: block;
+}
+}
+
+
+
+
+/* search bar jsx and css */
+
+/* <div className="search-bar">
+  <input type="text" placeholder="Search..." className="search-input" />
+  <button className="search-button">
+  <span className="search-icon">🔍</span>
+  </button>
+  </div> */
+
+
+/* .search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  outline: none;
+  background: transparent;
+}
+
+.search-button {
+  border: none;
+  background: #3498db;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition:  0.3s ease;
+}
+
+.search-button:hover {
+  background: #2980b9;
+}
+
+.search-icon {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 5px;
+} */
+
+  /* search bar jsx and css */

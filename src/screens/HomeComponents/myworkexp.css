@@ -1,0 +1,143 @@
+/* .myWorkExpContent{
+  color: white;
+} */
+.lineStyleImg{
+  width: 100%;
+}
+.myWorkExpHeading{
+  font-size: 3rem;
+ color: white;
+ border-bottom:1px solid white ;
+}
+.myWorkExp1{
+  display: flex;
+padding: 3rem;
+/* margin: 3rem; */
+width: 80%;
+margin-left: 6.5rem;
+margin-top: 3rem;
+justify-content: space-around;
+background-color:white;
+border-radius: 1rem;
+}
+.workExp1TextContent{
+width: 50%;
+}
+.myWorkExp2{
+  display: flex;
+padding: 3rem;
+width: 80%;
+margin-left: 6.5rem;
+margin-top: 3rem;
+justify-content: space-around;
+background-color:white;
+border-radius: 1rem;
+}
+.workExp2TextContent{
+  padding-left: 2.5rem;
+width: 50%;
+}
+.myWorkExp3{
+  display: flex;
+padding: 3rem;
+width: 80%;
+margin-left: 6.5rem;
+margin-top: 3rem;
+margin-bottom: 3rem;
+justify-content: space-around;
+background-color:white;
+border-radius: 1rem;
+}
+.workExp3TextContent{
+width: 50%;
+}
+.imgWorkExpUpworkLogo{
+ height: 2rem;
+  width: 10rem;
+}
+.imgWorkExpGrassSolution{
+  height: 6rem;
+width: auto;
+}
+.imgWorkExpMagicEdtechLogo{
+   height: 4rem;
+ width: 10rem;
+}
+
+
+@media (max-width: 767px) {
+  .lineStyleImg{
+  width: 100%;
+  margin-bottom: -1px;
+}
+  /* .myWorkExpContent{
+  color: white;
+} */
+.myWorkExpHeading{
+  font-size: 2.5rem;
+ color: white;
+ border-bottom:1px solid white ;
+}
+.myWorkExp1{
+  display: flex;
+  flex-direction: column;
+padding: 2rem;
+/* margin: 3rem; */
+width: 80%;
+margin-left: 2.5rem;
+margin-top: 3rem;
+justify-content: space-around;
+background-color:white;
+border-radius: 1rem;
+}
+.workExp1TextContent{
+width: 100%;
+}
+.myWorkExp2{
+ display: flex;
+  flex-direction: column;
+padding: 2rem;
+/* margin: 3rem; */
+width: 80%;
+margin-left: 2.5rem;
+margin-top: 3rem;
+justify-content: space-around;
+background-color:white;
+border-radius: 1rem;
+}
+.workExp2TextContent{
+  padding-left: 0rem;
+width: 100%;
+}
+.spanText{
+  display: none;
+}
+.myWorkExp3{
+ display: flex;
+  flex-direction: column;
+padding: 2rem;
+width: 80%;
+margin-left: 2.5rem;
+margin-top: 3rem;
+margin-bottom: 3rem;
+justify-content: space-around;
+background-color:white;
+border-radius: 1rem;
+}
+.workExp3TextContent{
+width: 100%;
+}
+.imgWorkExpUpworkLogo{
+ height: 2rem;
+  width: 10rem;
+}
+.imgWorkExpGrassSolution{
+  height: 6rem;
+width: auto;
+}
+.imgWorkExpMagicEdtechLogo{
+   height: 4rem;
+ width: 10rem;
+}
+
+}
