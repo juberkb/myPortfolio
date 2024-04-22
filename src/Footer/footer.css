@@ -85,7 +85,7 @@ margin-left: 60px;
 /* Styles for small screens (max-width: 767px) */
 @media (max-width: 767px) {
   .lineStyleSecondImage{
-    margin-top: -60px;
+    margin-top: -55px;
     position: relative;
     z-index: 1;
   width: 100%;
