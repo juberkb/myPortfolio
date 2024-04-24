@@ -28,7 +28,7 @@ function MyProjects() {
  <h2 className='projectMainHeading'>My Projects :</h2>
  
   
-    <p className='projectOnlyText' style={{marginLeft:"3rem"}}>You can access each of these projects by clicking on the corresponding project's name.</p>
+    <p className='projectOnlyText' style={{paddingTop:"3rem", paddingLeft:".5rem",paddingBottom:"1rem"}}>You can access each of these projects by clicking on the corresponding project's name.</p>
      <ProjectNew className="myNewProject"/>
     <section className="myProject">
   

@@ -21,10 +21,7 @@ function MyWorkExp() {
        <span className='spanText'>July 2023 - present</span>
       </div>
 
-        <div className="myWorkExp2">
- 
-
- 
+        <div className="myWorkExp2"> 
         <img src={grassSolutionLogo} alt='Freelance' className='imgWorkExpGrassSolution'/>
 
         <div className="workExp2TextContent">

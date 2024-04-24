@@ -89,8 +89,10 @@ function HireMeServicePage() {
              <div className="hireMeTextContainer">
              <h3 className="gradient-text">Your company, my exceptional expertise.</h3>
              <h6 className="gradient-text2">If you are looking for an agency to help you create a remarkable presence online, you`ve come to the right place. We can help you take your business to the next level.</h6>
-            
- <ResumeDownloadButton/>
+           <div  style={{display:"flex",justifyContent:"center", alignItems:"center",paddingTop:"1rem", paddingBottom:"3rem"}}>
+            <ResumeDownloadButton/>
+           </div> 
+ 
           
                   </div>
 </div>

@@ -78,8 +78,8 @@ width: 100%;
 padding-top: 20px;
 >.hireMeSubContainer1{
     width: 100%;
-padding-left: 2rem;
-padding: 2rem;
+padding-left: 0rem;
+padding: 0rem;
 }
 .hireMeButton{
   margin-left: 3rem;
@@ -89,27 +89,35 @@ padding: 2rem;
 }
 }
 .textColumn{
+  display: flex;
+  flex-direction: column;
    background-color: gray;
-margin-left: 40px;
-padding: 10px;
+margin-left: 0rem;
+padding: 2rem;
     margin-right: 20px;
     border-radius: 20px;
    }
    .text-column1{
     display: flex;
-    margin: 20px 40px;
-    padding-top: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* margin-left: 20px; */
+    margin: 0px 0px;
+    padding-top: 0rem;
  color: black;
  text-transform: capitalize;
- margin-top: -10px;
- text-align: justify;
+ /* margin-top: -10px; */
+ text-align:start;
    }
    .text-column2{
     color: black;
-      margin-left: 20px;
+      margin-left: -1rem;
    }
 .gradient-text{
  padding-top: 20px;
+  margin-left: 0px;
+  padding-left: 1rem;
+ margin-right: 0px;
  /* margin-left: 3rem;
  margin-right: 40px; */
  text-align: start;
