@@ -143,7 +143,9 @@ padding-bottom: 2rem; */
 .footerCopyRightsHandle{
   border-top: 1px solid darkgrey;
  display: flex;
-
+  >.footerCopyRights{
+margin-left: 2rem;
+ }
 }
 
 /* Common styles for both large and small screens */
