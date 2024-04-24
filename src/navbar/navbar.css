@@ -90,7 +90,9 @@ backdrop-filter: blur( 0.5px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
           top: 5rem;
+          width: 60%;
       height: 50vh;
+      margin-right: 2rem;
   }
   .collapse .navbar-nav .nav-item {
     font-weight: 900;

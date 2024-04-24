@@ -39,7 +39,7 @@
   height: 18rem;
   width: 18rem;
   box-shadow: rgb(12, 12, 12) -10px 10px, rgba(133, 133, 133, 0.603) -20px 20px, rgba(82, 82, 82, 0.516) -25px 25px, rgba(124, 124, 124, 0.55) -30px 30px, rgba(0, 0, 0, 0.05) -35px 35px;
-margin-left: 2.5rem;
+margin-left: 3rem;
  border-radius: 25% 75% 1% 0% / 0% 75% 25% 25%;
 }
   .aboutContent{
