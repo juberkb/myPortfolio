@@ -210,12 +210,20 @@ background-position-x: right;
 .projectOnlyText{
  color: #fff;
 }
-
-@media only screen and (min-width: 1024px) {
-  .myProject{
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for devices with a width between 768px and 1023px */
+   .myProject{
     display: none;
   }
 }
+
+@media (min-width: 1024px) {
+   .myProject{
+    display: none;
+  }
+  /* Styles for devices with a minimum width of 1024px */
+}
+
 
     @media (max-width: 768px) {
 

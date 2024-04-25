@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import NavLogo from "../Media/jkb-png.webp"
 import ResumeDownloadButton from "../ReuableComponents/ResumeDownloadButton";
-import"./navbar.css"
+import "./navbar.css"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 

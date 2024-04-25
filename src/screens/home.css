@@ -201,6 +201,10 @@ margin-left: 90px;
 }
 
 @media (max-width: 768px) {
+   @font-face {
+    font-family:'EBGaramond-Regular';
+    src: url('../Fonts/EBGaramond-Regular.ttf');
+ }
  .homeContainer{
   display: flex;
   flex-direction: column-reverse;
