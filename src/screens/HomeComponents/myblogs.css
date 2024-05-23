@@ -1,0 +1,14 @@
+.myBlogs{
+    background-color: white;
+   padding: 3rem; 
+}
+.myblogHeading{
+      color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 3rem;
+   
+}
+.card{
+  width: 20rem;
+margin-left: 8rem;
+}

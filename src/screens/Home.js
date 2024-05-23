@@ -11,6 +11,7 @@ import About from "./HomeComponents/About";
 import portfolioTopImage from "../Media/Juberkhan.webp"
 import ContactInfo from './HomeComponents/ContactInfo';
 import HireMeServicePage from './HomeComponents/HireMeServicePage';
+import MyBlogs from './HomeComponents/MyBlogs';
 
 function Home() {
 
@@ -99,7 +100,9 @@ to High- Quality Code and Collaborative Teamwork.</p>
      <section id="aboutMe">
 <About/>
 </section>
-
+<section id='myblogs'>
+  <MyBlogs/>
+</section>
  <section id="myskills">
  <MySkills/>
 </section>
@@ -110,7 +113,11 @@ to High- Quality Code and Collaborative Teamwork.</p>
  <section id="myservice">
 <HireMeServicePage/>
 </section>
+
 <MyWorkExp/>
+
+
+
  <section id="contactme">
 <ContactInfo/>
 </section>

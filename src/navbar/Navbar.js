@@ -16,6 +16,8 @@ const Navbar = () => {
         <Link className="NavLogo" to="/">
           <img src={NavLogo} alt="navlogo"/>
           </Link>
+           
+     
         <button className={`navbar-toggler ${menuOpen ? 'open' : ''}`} type="button" onClick={toggleMenu} alt="togglerButton">
           <span></span>
           <span></span>
@@ -94,6 +96,21 @@ const Navbar = () => {
                 Contact Me
               </Link>
             </li>
+             <li className="nav-item">
+              <Link
+                className="nav-link"
+                activeClass="active"
+                to="myblogs"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={toggleMenu}
+              >
+        myBlogs
+              </Link>
+            </li>
+        
                 <li className="nav-item">
          <ResumeDownloadButton className="navButton"/>
         </li> 

@@ -9,7 +9,7 @@ import About from "./screens/HomeComponents/About";
 import MyServices from "./screens/HomeComponents/MyServices";
 import MySkills from "./screens/HomeComponents/MySkills";
 import MyProjects from "./screens/HomeComponents/MyProjects";
-
+import MyBlogs from "./screens/HomeComponents/MyBlogs";
 import GotoTop from "./screens/HomeComponents/GotoTop";
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
                 <Route path="/skills" element={<MySkills />} ></Route>
                 <Route path="/services" element={<MyServices />} ></Route>
                 <Route path="/projects" element={<MyProjects />} ></Route>
+                 <Route path="/myblogs" element={<MyBlogs />} ></Route>
                 {/* Add more routes for other sections */}
                 
             </Routes>
