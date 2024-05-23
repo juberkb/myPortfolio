@@ -37,7 +37,7 @@ const Navbar = () => {
                 duration={500}
                 onClick={toggleMenu}
               >
-                About Me
+                About
               </Link>
             </li>
             <li className="nav-item">
@@ -93,7 +93,7 @@ const Navbar = () => {
                 duration={500}
                 onClick={toggleMenu}
               >
-                Contact Me
+                Contact
               </Link>
             </li>
              <li className="nav-item">
@@ -107,7 +107,7 @@ const Navbar = () => {
                 duration={500}
                 onClick={toggleMenu}
               >
-        myBlogs
+        Blogs
               </Link>
             </li>
         
