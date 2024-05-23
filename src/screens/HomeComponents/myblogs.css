@@ -15,7 +15,7 @@ margin-left: 8rem;
  @media (max-width: 768px) {
   .myBlogs{
     background-color: white;
-   padding: 3rem; 
+   padding: 1rem; 
 }
 .myblogHeading{
       color: rgb(0, 0, 0);
@@ -25,6 +25,6 @@ margin-left: 8rem;
 }
 .card{
   width: 20rem;
-margin-left: 0rem;
+margin-left: 1rem;
 }
 }
