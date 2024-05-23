@@ -12,3 +12,19 @@
   width: 20rem;
 margin-left: 8rem;
 }
+ @media (max-width: 768px) {
+  .myBlogs{
+    background-color: white;
+   padding: 3rem; 
+}
+.myblogHeading{
+      color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 1.5rem;
+   
+}
+.card{
+  width: 20rem;
+margin-left: 0rem;
+}
+}
