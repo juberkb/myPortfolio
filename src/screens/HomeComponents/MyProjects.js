@@ -8,6 +8,12 @@ import Background4 from "../../Media/userManagmentCapture2.png"
 import Background5 from "../../Media/tictactoeCapture.jpg"
 import Background6 from "../../Media/ClockCapture09.png"
 import Background7 from "../../Media/TypingMaster.png"
+import Background8 from "../../Media/project9.png"
+import Background9 from "../../Media/project10.png"
+import Background10 from "../../Media/project11.png"
+import Background11 from "../../Media/project12.png"
+
+
 
 // import Zoom from 'react-reveal/Zoom';
 
@@ -39,6 +45,47 @@ function MyProjects() {
           </div>
              <div className="projectLinkButton">
             <Button label="Daily Live Media" onClick={handleButtonClick} className="linkButton" link="https://dailylivemedia.netlify.app/"/>
+            </div>
+        </li>
+
+              <li className="carouselSlide" id="carouselSlide">
+          <div
+            className="carouselSnapper">
+              <img src={Background8} alt="Bimg" className='projectImg'/>
+            </div>       
+             <div className="projectLinkButton">
+            <Button label="Rent A Car" onClick={handleButtonClick} className="linkButton" link="https://juberkb.github.io/rentacarwithme/"/>
+               
+            </div>
+        </li>
+
+         <li className="carouselSlide" id="carouselSlide">
+          <div
+            className="carouselSnapper">
+              <img src={Background9} alt="Bimg" className='projectImg'/>
+            </div>       
+             <div className="projectLinkButton">
+            <Button label="Next Anime" onClick={handleButtonClick} className="linkButton" link="https://moviewithme.vercel.app/"/>
+            </div>
+        </li>
+
+          <li className="carouselSlide" id="carouselSlide">
+          <div
+            className="carouselSnapper">
+              <img src={Background10} alt="Bimg" className='projectImg'/>
+            </div>       
+             <div className="projectLinkButton">
+            <Button label="Grass Solution" onClick={handleButtonClick} className="linkButton" link="https://grras.com/"/>
+            </div>
+        </li>
+
+          <li className="carouselSlide" id="carouselSlide">
+          <div
+            className="carouselSnapper">
+              <img src={Background11} alt="Bimg" className='projectImg'/>
+            </div>       
+             <div className="projectLinkButton">
+            <Button label="Osira network" onClick={handleButtonClick} className="linkButton" link="https://osira.network/"/>
             </div>
         </li>
 
@@ -102,6 +149,8 @@ function MyProjects() {
                
             </div>
         </li>
+
+   
 
       </ol>
     </section>
